@@ -18,4 +18,5 @@
 - GPT-4 8K
 - GPT-3.5 16k
 - dall3
+- coze 平台
 
