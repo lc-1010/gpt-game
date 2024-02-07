@@ -23,3 +23,22 @@ async function main({ params }: Args): Promise<Output> {
 
     return ret;
 }
+
+
+//code2
+async function main({ params }: any): Promise<any> {
+    // 使用正则表达式匹配URL
+    const urlPattern = /\(http[^\)]+\)/g;
+    const matches = params.input.match(urlPattern);
+
+    // 提取URL
+    const urls = matches ? matches.map((url) => url.slice(1, -1)) : [];
+
+    const ret = {
+        "key0":  urls
+        
+    };
+
+    return ret;
+}
+
