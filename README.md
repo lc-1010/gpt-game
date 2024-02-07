@@ -7,6 +7,10 @@
 
 [prompt](base.prompt.md)
 
+![flow](flow.png)
+
+## workflow 
+
 ![workflow](./workflow/workflow-gpt-game.png)
 
 ## GPT  
